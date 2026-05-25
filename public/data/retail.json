@@ -1,0 +1,71 @@
+{
+  "chapterId": "retail",
+  "title": "Fashion Avenue & Luxury Retail",
+  "description": "The Dubai Mall hosts 1,200+ stores including the world's largest collection of fashion brands under one roof—anchored by Fashion Avenue's luxury wing.",
+  "hero": {
+    "title": "Global luxury, singular address",
+    "description": "Flagship boutiques, mono-brand formats, and experiential retail concepts benefit from tourism density, tax-free appeal, and year-round seasonality.",
+    "assets": {
+      "video": "retail.overview.video",
+      "videoFallback": "retail.overview.videoFallback",
+      "image": "retail.overview.image",
+      "imageFallback": "retail.overview.imageFallback"
+    },
+    "cta": { "text": "Explore Fashion Avenue zone", "route": "/" }
+  },
+  "items": [
+    {
+      "id": "fashion-avenue",
+      "title": "Fashion Avenue",
+      "description": "Dedicated luxury precinct with premium finishes, concierge adjacency, and the highest concentration of international maisons in the region.",
+      "assets": {
+        "image": "retail.fashion-avenue.image",
+        "imageFallback": "retail.fashion-avenue.imageFallback",
+        "video": "retail.fashion-avenue.video",
+        "videoFallback": "retail.fashion-avenue.videoFallback"
+      },
+      "cta": { "text": "Locate on hub", "route": "/" },
+      "hubZoneId": "fashion-avenue"
+    },
+    {
+      "id": "luxury-wing",
+      "title": "Luxury Wing & Adjacencies",
+      "description": "Expandable luxury corridors designed for halo brands, limited editions, and appointment-led retail.",
+      "assets": {
+        "image": "retail.luxury-wing.image",
+        "imageFallback": "retail.luxury-wing.imageFallback"
+      },
+      "cta": { "text": "Partner with leasing", "route": "/partner" }
+    },
+    {
+      "id": "flagship-01",
+      "title": "Global Flagship Formats",
+      "description": "Double-height storefronts and experience-led formats for brands launching or scaling across MENA.",
+      "assets": {
+        "image": "retail.flagship-01.image",
+        "imageFallback": "retail.flagship-01.imageFallback"
+      },
+      "cta": { "text": "View scale metrics", "route": "/scale" }
+    },
+    {
+      "id": "flagship-02",
+      "title": "Lifestyle & Premium High Street",
+      "description": "Bridge between luxury and aspirational segments—capturing regional shoppers and visiting tourists.",
+      "assets": {
+        "image": "retail.flagship-02.image",
+        "imageFallback": "retail.flagship-02.imageFallback"
+      },
+      "cta": { "text": "Explore attractions traffic", "route": "/attractions" }
+    },
+    {
+      "id": "variety",
+      "title": "Category Depth",
+      "description": "Electronics, beauty, home, and entertainment retail clusters drive basket size and repeat visitation.",
+      "assets": {
+        "image": "retail.variety.image",
+        "imageFallback": "retail.variety.imageFallback"
+      },
+      "cta": { "text": "Return to hub", "route": "/" }
+    }
+  ]
+}

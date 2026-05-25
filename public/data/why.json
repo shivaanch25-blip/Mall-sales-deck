@@ -1,0 +1,68 @@
+{
+  "chapterId": "why",
+  "title": "Why The Dubai Mall",
+  "description": "Anchored in Downtown Dubai beside Burj Khalifa and The Dubai Fountain, The Dubai Mall is the commercial heart of a global tourism corridor—where scale, access, and audience density converge for brands that cannot afford to be absent.",
+  "hero": {
+    "title": "The center of the world's most visited city",
+    "description": "A super-destination integrated with hotels, metro, and iconic landmarks—engineered for all-day dwell time and international spend.",
+    "assets": {
+      "video": "why.hero.video",
+      "videoFallback": "why.hero.videoFallback",
+      "image": "why.hero.image",
+      "imageFallback": "why.hero.imageFallback"
+    },
+    "cta": { "text": "See destination scale", "route": "/scale" }
+  },
+  "pillars": [
+    {
+      "id": "location",
+      "title": "Unrivalled location",
+      "description": "Downtown Dubai—directly connected to Dubai Metro, major hotels, and the Burj Khalifa / Dubai Fountain ecosystem. The address global campaigns already use.",
+      "assets": {
+        "image": "why.location.image",
+        "imageFallback": "why.location.imageFallback"
+      },
+      "cta": { "text": "Explore the hub", "route": "/" }
+    },
+    {
+      "id": "tourism",
+      "title": "Tourism gateway",
+      "description": "A primary stop on the UAE visitor itinerary. International tourists, GCC weekends, and business travellers create year-round peaks—not seasonal spikes.",
+      "assets": {
+        "image": "why.tourism.image",
+        "imageFallback": "why.tourism.imageFallback"
+      },
+      "cta": { "text": "View attractions", "route": "/attractions" }
+    },
+    {
+      "id": "demographics",
+      "title": "Global audience",
+      "description": "Visitors from 200+ nationalities. High aspirational spend across luxury, beauty, F&B, and experiences—ideal for flagship launches and regional firsts.",
+      "assets": {
+        "image": "why.demographics.image",
+        "imageFallback": "why.demographics.imageFallback"
+      },
+      "cta": { "text": "Luxury positioning", "route": "/luxury" }
+    },
+    {
+      "id": "access",
+      "title": "Access & infrastructure",
+      "description": "Multi-level parking, valet, metro link, and taxi rank density designed for 80M+ annual visits—logistics that support major activations and retail events.",
+      "assets": {
+        "image": "why.access.image",
+        "imageFallback": "why.access.imageFallback"
+      },
+      "cta": { "text": "Book an event", "route": "/events/module" }
+    }
+  ],
+  "metrics": [
+    { "label": "Annual visitors", "value": "80M+", "ref": "stats.visitors" },
+    { "label": "Nationalities", "value": "200+", "ref": "why.demographics.image" },
+    { "label": "Retail GLA", "value": "5.9M sq ft", "ref": "stats.scale" }
+  ],
+  "ctas": {
+    "leasing": { "text": "Discuss leasing", "route": "/partner", "intent": "leasing" },
+    "sponsorship": { "text": "Explore sponsorship", "route": "/partner", "intent": "sponsorship" },
+    "events": { "text": "Host an event", "route": "/events/module", "intent": "events" }
+  }
+}

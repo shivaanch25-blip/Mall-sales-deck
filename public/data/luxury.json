@@ -1,0 +1,62 @@
+{
+  "chapterId": "luxury",
+  "title": "Luxury & Fashion Avenue",
+  "description": "Fashion Avenue is the region's definitive luxury precinct—where global maisons, private clienteling, and architectural prestige create an environment competitors cannot replicate.",
+  "hero": {
+    "title": "Where luxury lives at scale",
+    "description": "Double-height boutiques, curated adjacencies, and tourism density that luxury groups demand for Middle East flagship strategies.",
+    "assets": {
+      "video": "luxury.hero.video",
+      "videoFallback": "luxury.hero.videoFallback",
+      "image": "luxury.hero.image",
+      "imageFallback": "luxury.hero.imageFallback"
+    },
+    "cta": { "text": "Request luxury leasing brief", "route": "/partner", "intent": "leasing-luxury" }
+  },
+  "items": [
+    {
+      "id": "maisons",
+      "title": "Global Maisons",
+      "description": "Concentration of international luxury houses with flagship formats, limited editions, and appointment-led retail.",
+      "assets": {
+        "image": "luxury.maisons.image",
+        "imageFallback": "luxury.maisons.imageFallback"
+      },
+      "cta": { "text": "Leasing inquiry", "route": "/partner", "intent": "leasing-luxury" }
+    },
+    {
+      "id": "jewellery",
+      "title": "High Jewellery & Watches",
+      "description": "Secure, high-visibility corridors for timepieces and jewellery with concierge adjacency.",
+      "assets": {
+        "image": "luxury.jewellery.image",
+        "imageFallback": "luxury.jewellery.imageFallback"
+      },
+      "cta": { "text": "Discuss floor plans", "route": "/partner", "intent": "leasing-luxury" }
+    },
+    {
+      "id": "concierge",
+      "title": "Concierge & Services",
+      "description": "Premium services layer that extends dwell time and supports VIP tourism segments.",
+      "assets": {
+        "image": "luxury.concierge.image",
+        "imageFallback": "luxury.concierge.imageFallback"
+      },
+      "cta": { "text": "Partner on activations", "route": "/partner", "intent": "sponsorship" }
+    },
+    {
+      "id": "private",
+      "title": "Private Shopping",
+      "description": "Invitation-only suites and after-hours formats for top client segments.",
+      "assets": {
+        "image": "luxury.private.image",
+        "imageFallback": "luxury.private.imageFallback"
+      },
+      "cta": { "text": "Explore Fashion Avenue", "route": "/retail" }
+    }
+  ],
+  "ctas": {
+    "leasing": { "text": "Luxury leasing inquiry", "route": "/partner", "intent": "leasing-luxury" },
+    "retail": { "text": "View full retail mix", "route": "/retail" }
+  }
+}

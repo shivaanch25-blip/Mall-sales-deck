@@ -1,0 +1,99 @@
+{
+  "chapterId": "attractions",
+  "title": "Signature Attractions",
+  "description": "From the depths of the Dubai Aquarium to the spectacle of the Dubai Fountain, The Dubai Mall anchors the city's most iconic experiences—driving dwell time, tourism, and repeat visitation.",
+  "items": [
+    {
+      "id": "dubai-aquarium",
+      "title": "Dubai Aquarium & Underwater Zoo",
+      "description": "One of the world's largest suspended aquariums—10 million litres of marine habitat, tunnel walks, and premium animal encounters that anchor family and tourist traffic.",
+      "assets": {
+        "image": "attractions.dubai-aquarium.image",
+        "imageFallback": "attractions.dubai-aquarium.imageFallback",
+        "video": "attractions.dubai-aquarium.video",
+        "videoFallback": "attractions.dubai-aquarium.videoFallback"
+      },
+      "stats": { "tankLitres": "10M+", "species": "140+" },
+      "cta": { "text": "Explore zone on map", "route": "/" },
+      "hubZoneId": "aquarium"
+    },
+    {
+      "id": "underwater-zoo",
+      "title": "Underwater Zoo",
+      "description": "Immersive edutainment across rainforest, rocky shore, and UAE night creature zones—extending aquarium dwell time and premium ticketing.",
+      "assets": {
+        "image": "attractions.underwater-zoo.image",
+        "imageFallback": "attractions.underwater-zoo.imageFallback",
+        "video": "attractions.underwater-zoo.video",
+        "videoFallback": "attractions.underwater-zoo.videoFallback"
+      },
+      "cta": { "text": "View attraction detail", "route": "/attractions" },
+      "hubZoneId": "aquarium"
+    },
+    {
+      "id": "dubai-fountain",
+      "title": "The Dubai Fountain",
+      "description": "The world's largest choreographed fountain system—an external spectacle synced with Downtown Dubai that draws evening crowds and global media moments.",
+      "assets": {
+        "image": "attractions.dubai-fountain.image",
+        "imageFallback": "attractions.dubai-fountain.imageFallback",
+        "video": "attractions.dubai-fountain.video",
+        "videoFallback": "attractions.dubai-fountain.videoFallback"
+      },
+      "cta": { "text": "See fountain zone", "route": "/" },
+      "hubZoneId": "fountain"
+    },
+    {
+      "id": "ice-rink",
+      "title": "Dubai Ice Rink",
+      "description": "Olympic-size rink programming—public sessions, hockey, and events—adding all-season entertainment and group bookings to the mall mix.",
+      "assets": {
+        "image": "attractions.ice-rink.image",
+        "imageFallback": "attractions.ice-rink.imageFallback",
+        "video": "attractions.ice-rink.video",
+        "videoFallback": "attractions.ice-rink.videoFallback"
+      },
+      "cta": { "text": "Locate on hub", "route": "/" },
+      "hubZoneId": "ice-rink"
+    },
+    {
+      "id": "vr-park",
+      "title": "VR Park",
+      "description": "Location-based virtual reality at scale—high-throughput attractions for youth, tourists, and birthday/group packages.",
+      "assets": {
+        "image": "attractions.vr-park.image",
+        "imageFallback": "attractions.vr-park.imageFallback",
+        "video": "attractions.vr-park.video",
+        "videoFallback": "attractions.vr-park.videoFallback"
+      },
+      "cta": { "text": "Explore VR Park", "route": "/" },
+      "hubZoneId": "vr-park"
+    },
+    {
+      "id": "souq",
+      "title": "Souk Al Bahar & Luxury Zones",
+      "description": "Arabesque retail adjacency and premium corridors connecting heritage-inspired merchandising with global luxury demand.",
+      "assets": {
+        "image": "attractions.souq.image",
+        "imageFallback": "attractions.souq.imageFallback",
+        "video": "attractions.souq.video",
+        "videoFallback": "attractions.souq.videoFallback"
+      },
+      "cta": { "text": "View souk zone", "route": "/" },
+      "hubZoneId": "souk"
+    },
+    {
+      "id": "events",
+      "title": "Events & Tourist Activations",
+      "description": "Seasonal festivals, brand pop-ups, and tourism partnerships that keep The Dubai Mall perpetually newsworthy across GCC and global channels.",
+      "assets": {
+        "image": "attractions.events.image",
+        "imageFallback": "attractions.events.imageFallback",
+        "video": "attractions.events.video",
+        "videoFallback": "attractions.events.videoFallback"
+      },
+      "cta": { "text": "Partner on activations", "route": "/partner" },
+      "hubZoneId": null
+    }
+  ]
+}

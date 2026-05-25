@@ -1,0 +1,53 @@
+{
+  "chapterId": "events",
+  "title": "Events & Platform",
+  "description": "The Dubai Mall is a global stage—fashion weeks, brand takeovers, celebrity appearances, and waterfront spectacles that generate earned media far beyond the property line.",
+  "hero": {
+    "title": "More than a mall. A platform.",
+    "description": "Activate at the intersection of tourism, luxury, and live entertainment—with venues from intimate showcases to atrium-scale productions.",
+    "assets": {
+      "video": "eventsPlatform.hero.video",
+      "videoFallback": "eventsPlatform.hero.videoFallback",
+      "image": "eventsPlatform.hero.image",
+      "imageFallback": "eventsPlatform.hero.imageFallback"
+    },
+    "cta": { "text": "Open Events Module", "route": "/events/module" }
+  },
+  "highlights": [
+    {
+      "id": "activations",
+      "title": "Brand activations",
+      "description": "Pop-ups, immersive installs, and product launches with guaranteed footfall capture.",
+      "assets": {
+        "image": "eventsPlatform.activations.image",
+        "imageFallback": "eventsPlatform.activations.imageFallback"
+      },
+      "cta": { "text": "Sponsorship inquiry", "route": "/partner", "intent": "sponsorship" }
+    },
+    {
+      "id": "concerts",
+      "title": "Live & cultural moments",
+      "description": "Concerts, festivals, and seasonal programming tied to Dubai's event calendar.",
+      "assets": {
+        "image": "eventsPlatform.concerts.image",
+        "imageFallback": "eventsPlatform.concerts.imageFallback"
+      },
+      "cta": { "text": "Book a venue", "route": "/events/module", "intent": "events" }
+    },
+    {
+      "id": "fashion",
+      "title": "Fashion & beauty platforms",
+      "description": "Runway moments, beauty launches, and influencer ecosystems inside Fashion Avenue.",
+      "assets": {
+        "image": "eventsPlatform.fashion.image",
+        "imageFallback": "eventsPlatform.fashion.imageFallback"
+      },
+      "cta": { "text": "Luxury partnerships", "route": "/luxury" }
+    }
+  ],
+  "ctas": {
+    "module": { "text": "Explore event capabilities", "route": "/events/module" },
+    "book": { "text": "Book an event", "route": "/events/module", "intent": "events" },
+    "sponsor": { "text": "Sponsorship packages", "route": "/partner", "intent": "sponsorship" }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "chapterId": "dining",
+  "title": "Dining Boulevard",
+  "description": "More than 200 dining outlets—from chef-driven signatures to fast-casual density—position The Dubai Mall as a culinary destination, not just a shopping trip.",
+  "hero": {
+    "title": "Where the world comes to eat",
+    "description": "Waterfront-adjacent dining, Fashion Avenue adjacency, and aquarium-facing terraces create premium F&B real estate with unmatched footfall.",
+    "assets": {
+      "video": "dining.overview.video",
+      "videoFallback": "dining.overview.videoFallback",
+      "image": "dining.overview.image",
+      "imageFallback": "dining.overview.imageFallback"
+    },
+    "cta": { "text": "View hub dining zone", "route": "/" }
+  },
+  "items": [
+    {
+      "id": "dining-boulevard",
+      "title": "Dining Boulevard",
+      "description": "Curated restaurant row with high visibility and tourist capture—ideal for flagship openings and regional firsts.",
+      "assets": {
+        "image": "dining.boulevard.image",
+        "imageFallback": "dining.boulevard.imageFallback",
+        "video": "dining.boulevard.video",
+        "videoFallback": "dining.boulevard.videoFallback"
+      },
+      "cta": { "text": "Explore on map", "route": "/" },
+      "hubZoneId": "dining"
+    },
+    {
+      "id": "signature-01",
+      "title": "Chef Signature Destinations",
+      "description": "Premium full-service restaurants aligned with luxury retail corridors and international visitor expectations.",
+      "assets": {
+        "image": "dining.signature-01.image",
+        "imageFallback": "dining.signature-01.imageFallback"
+      },
+      "cta": { "text": "Request F&B briefing", "route": "/partner" }
+    },
+    {
+      "id": "signature-02",
+      "title": "Global Cuisine Clusters",
+      "description": "High-density cuisine variety increases dwell time and cross-shopping between retail anchors.",
+      "assets": {
+        "image": "dining.signature-02.image",
+        "imageFallback": "dining.signature-02.imageFallback"
+      },
+      "cta": { "text": "See retail adjacency", "route": "/retail" }
+    },
+    {
+      "id": "variety",
+      "title": "Cafés & Social Dining",
+      "description": "All-day café culture supports meetings, tourism breaks, and extended stays across the super-mall footprint.",
+      "assets": {
+        "image": "dining.variety.image",
+        "imageFallback": "dining.variety.imageFallback"
+      },
+      "cta": { "text": "View destination scale", "route": "/scale" }
+    }
+  ]
+}

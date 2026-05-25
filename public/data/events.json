@@ -1,0 +1,145 @@
+{
+  "moduleId": "events-module",
+  "title": "Events Module",
+  "subtitle": "Venues · Capabilities · Booking",
+  "description": "From waterfront promenades to atrium-scale productions, The Dubai Mall offers modular event infrastructure for brands, agencies, and promoters evaluating UAE activations.",
+  "hero": {
+    "assets": {
+      "video": "eventsPlatform.hero.video",
+      "videoFallback": "eventsPlatform.hero.videoFallback",
+      "image": "experiences.eventsHero",
+      "imageFallback": "experiences.eventsHeroFallback"
+    }
+  },
+  "venues": [
+    {
+      "id": "fashion-dome",
+      "title": "Fashion Dome & Avenue",
+      "capacity": "500–2,000 guests",
+      "description": "Runway-ready environments adjacent to luxury retail—ideal for fashion shows, beauty launches, and VIP receptions.",
+      "assets": {
+        "image": "venues.fashion-dome.image",
+        "imageFallback": "venues.fashion-dome.imageFallback",
+        "video": "venues.fashion-dome.video",
+        "videoFallback": "venues.fashion-dome.videoFallback"
+      },
+      "cta": { "text": "Request venue sheet", "route": "/partner", "intent": "events" }
+    },
+    {
+      "id": "waterfront",
+      "title": "Waterfront Promenade",
+      "capacity": "1,000–5,000 guests",
+      "description": "Outdoor-facing activations with Dubai Fountain adjacency—premium visibility for launches and festivals.",
+      "assets": {
+        "image": "venues.waterfront.image",
+        "imageFallback": "venues.waterfront.imageFallback",
+        "video": "venues.waterfront.video",
+        "videoFallback": "venues.waterfront.videoFallback"
+      },
+      "cta": { "text": "Book waterfront", "route": "/partner", "intent": "events" }
+    },
+    {
+      "id": "expo-atrium",
+      "title": "Grand Atrium & Expo Formats",
+      "capacity": "2,000–10,000 guests",
+      "description": "Large-format footprints for auto reveals, conventions, and brand villages with multi-day build windows.",
+      "assets": {
+        "image": "venues.expo-atrium.image",
+        "imageFallback": "venues.expo-atrium.imageFallback",
+        "video": "venues.expo-atrium.video",
+        "videoFallback": "venues.expo-atrium.videoFallback"
+      },
+      "cta": { "text": "Expo inquiry", "route": "/partner", "intent": "events" }
+    },
+    {
+      "id": "ice-rink",
+      "title": "Dubai Ice Rink Events",
+      "capacity": "200–1,500 guests",
+      "description": "Olympic-size rink for sports entertainment, private hire, and themed experiences.",
+      "assets": {
+        "image": "venues.ice-rink-events.image",
+        "imageFallback": "venues.ice-rink-events.imageFallback",
+        "video": "venues.ice-rink-events.video",
+        "videoFallback": "venues.ice-rink-events.videoFallback"
+      },
+      "cta": { "text": "Book rink", "route": "/partner", "intent": "events" }
+    }
+  ],
+  "pastHighlights": [
+    {
+      "id": "h1",
+      "title": "Global fashion showcases",
+      "year": "2024",
+      "description": "Regional debuts and runway moments driving luxury footfall across Fashion Avenue.",
+      "assets": {
+        "image": "eventsPlatform.fashion.image",
+        "imageFallback": "eventsPlatform.fashion.imageFallback"
+      }
+    },
+    {
+      "id": "h2",
+      "title": "Brand takeover weekends",
+      "year": "2024",
+      "description": "Multi-day immersive builds with measurable dwell-time and social amplification.",
+      "assets": {
+        "image": "eventsPlatform.activations.image",
+        "imageFallback": "eventsPlatform.activations.imageFallback"
+      }
+    },
+    {
+      "id": "h3",
+      "title": "Waterfront festival programming",
+      "year": "2023",
+      "description": "Fountain-adjacent concerts and seasonal festivals capturing tourist peaks.",
+      "assets": {
+        "image": "eventsPlatform.concerts.image",
+        "imageFallback": "eventsPlatform.concerts.imageFallback"
+      }
+    }
+  ],
+  "capabilities": [
+    "Dedicated events & partnerships team",
+    "Build & strike logistics support",
+    "Permitting & security coordination",
+    "Integrated PR / tourism board adjacency",
+    "Retail & F&B tie-in packages",
+    "Sponsor inventory across digital + on-site"
+  ],
+  "sponsorshipTiers": [
+    {
+      "id": "platinum",
+      "name": "Platinum Platform",
+      "description": "Title-level presence across atrium, digital, and tourism channels.",
+      "highlights": ["Naming rights options", "VIP hospitality", "Year-round inventory"]
+    },
+    {
+      "id": "gold",
+      "name": "Gold Activation",
+      "description": "Seasonal campaigns with premium zones and influencer programming.",
+      "highlights": ["Flagship zones", "Content capture", "Retail tie-ins"]
+    },
+    {
+      "id": "silver",
+      "name": "Silver Presence",
+      "description": "Targeted activations and pop-ups with measurable footfall KPIs.",
+      "highlights": ["Pop-up formats", "Sampling", "Performance reporting"]
+    }
+  ],
+  "ctas": {
+    "bookEvent": {
+      "text": "Book an event",
+      "route": "/partner",
+      "intent": "events"
+    },
+    "sponsorship": {
+      "text": "Request sponsorship deck",
+      "route": "/partner",
+      "intent": "sponsorship"
+    },
+    "leasing": {
+      "text": "Retail & F&B leasing",
+      "route": "/partner",
+      "intent": "leasing"
+    }
+  }
+}

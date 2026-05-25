@@ -1,0 +1,34 @@
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 45vh;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.bgImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.35;
+}
+
+.bgScrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent, var(--color-bg));
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--space-md);
+  padding: 0 var(--space-xl) var(--space-xl);
+  max-width: 1200px;
+}
+
+.cta {
+  padding: 0 var(--space-xl) var(--space-2xl);
+}

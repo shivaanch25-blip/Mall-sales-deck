@@ -1,0 +1,72 @@
+{
+  "chapterId": "scale",
+  "title": "Destination Scale",
+  "description": "The Dubai Mall is among the world's largest and most visited lifestyle destinations—an ecosystem where retail, F&B, attractions, and tourism intersect.",
+  "background": {
+    "assets": {
+      "image": "stats.scale",
+      "imageFallback": "stats.scaleFallback"
+    }
+  },
+  "metrics": [
+    {
+      "id": "stores",
+      "label": "Stores & outlets",
+      "value": 1200,
+      "suffix": "+",
+      "description": "Unparalleled category breadth under one roof",
+      "assets": {
+        "image": "stats.retail",
+        "imageFallback": "stats.retailFallback"
+      }
+    },
+    {
+      "id": "area",
+      "label": "Total retail area",
+      "value": 5.9,
+      "suffix": "M sq ft",
+      "description": "Among the largest malls globally by total area",
+      "assets": {
+        "image": "stats.scale",
+        "imageFallback": "stats.scaleFallback"
+      }
+    },
+    {
+      "id": "visitors",
+      "label": "Annual visitors",
+      "value": 80,
+      "suffix": "M+",
+      "description": "Tourism-driven footfall from 200+ nationalities",
+      "assets": {
+        "image": "stats.visitors",
+        "imageFallback": "stats.visitorsFallback"
+      }
+    },
+    {
+      "id": "dining",
+      "label": "Dining outlets",
+      "value": 200,
+      "suffix": "+",
+      "description": "Full-day culinary destination positioning",
+      "assets": {
+        "image": "dining.variety.image",
+        "imageFallback": "dining.variety.imageFallback"
+      }
+    },
+    {
+      "id": "tourism",
+      "label": "Tourism adjacency",
+      "value": 1,
+      "suffix": " ecosystem",
+      "description": "Burj Khalifa, Dubai Fountain, and Downtown Dubai integration",
+      "assets": {
+        "image": "stats.tourism",
+        "imageFallback": "stats.tourismFallback"
+      }
+    }
+  ],
+  "cta": {
+    "text": "Discuss partnership models",
+    "route": "/partner"
+  }
+}

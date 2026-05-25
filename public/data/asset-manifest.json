@@ -1,0 +1,364 @@
+{
+  "$schema": "./asset-manifest.schema.json",
+  "version": "1.0.0",
+  "venue": "The Dubai Mall",
+  "baseUrl": "",
+  "fallbacks": {
+    "image": "/images/placeholders/placeholder-16x9.svg",
+    "video": "/videos/placeholders/gradient-loop.mp4",
+    "videoPoster": "/images/placeholders/placeholder-16x9.svg",
+    "logo": "/images/logos/dubai-mall-mark.svg",
+    "audio": null
+  },
+  "hero": {
+    "video": "/videos/hero/grand-atrium-flythrough.mp4",
+    "videoFallback": "/videos/placeholders/gradient-loop.mp4",
+    "poster": "/images/hero/hero-main.jpg",
+    "posterFallback": "/images/placeholders/hero-main.svg",
+    "atrium": "/images/hero/hero-atrium.jpg",
+    "atriumFallback": "/images/placeholders/hero-atrium.svg",
+    "exterior": "/images/hero/hero-exterior.jpg",
+    "exteriorFallback": "/images/placeholders/hero-exterior.svg",
+    "loop": "/videos/hero/grand-atrium-interior.mp4",
+    "loopFallback": "/videos/placeholders/gradient-loop.mp4"
+  },
+  "ambient": {
+    "hub": "/videos/ambient/ambient-01.mp4",
+    "hubFallback": "/videos/placeholders/gradient-loop.mp4",
+    "attractions": "/videos/ambient/ambient-02.mp4",
+    "attractionsFallback": "/videos/placeholders/gradient-loop.mp4",
+    "dining": "/videos/ambient/Ambient-03.mp4",
+    "diningFallback": "/videos/placeholders/gradient-loop.mp4",
+    "retail": "/videos/ambient/ambient-01.mp4",
+    "retailFallback": "/videos/placeholders/gradient-loop.mp4",
+    "leasing": "/videos/ambient/ambient-02.mp4",
+    "leasingFallback": "/videos/placeholders/gradient-loop.mp4",
+    "events": "/videos/ambient/Ambient-03.mp4",
+    "eventsFallback": "/videos/placeholders/gradient-loop.mp4",
+    "why": "/videos/ambient/ambient-01.mp4",
+    "whyFallback": "/videos/placeholders/gradient-loop.mp4",
+    "luxury": "/videos/ambient/ambient-02.mp4",
+    "luxuryFallback": "/videos/placeholders/gradient-loop.mp4"
+  },
+  "transitions": {
+    "wipeGold": "/videos/transitions/light-sweep-transition.mp4",
+    "wipeGoldFallback": "/videos/placeholders/gradient-loop.mp4",
+    "wipeDark": "/videos/transitions/luxury-particle-glow-transition.mp4",
+    "wipeDarkFallback": "/videos/placeholders/gradient-loop.mp4"
+  },
+  "attractions": {
+    "dubai-aquarium": {
+      "video": "/videos/attractions/attraction-01.mp4",
+      "videoFallback": "/videos/placeholders/gradient-loop.mp4",
+      "image": "/images/attractions/dubai-aquarium.jpg",
+      "imageFallback": "/images/placeholders/attraction-aquarium.svg"
+    },
+    "underwater-zoo": {
+      "video": "/videos/attractions/attraction-02.mp4",
+      "videoFallback": "/videos/placeholders/gradient-loop.mp4",
+      "image": "/images/attractions/underwater-zoo.jpg",
+      "imageFallback": "/images/placeholders/attraction-underwater-zoo.svg"
+    },
+    "dubai-fountain": {
+      "video": "/videos/attractions/attraction-03.mp4",
+      "videoFallback": "/videos/placeholders/gradient-loop.mp4",
+      "image": "/images/attractions/dubai-fountain.jpg",
+      "imageFallback": "/images/placeholders/attraction-fountain.svg"
+    },
+    "ice-rink": {
+      "video": "/videos/attractions/attraction-01.mp4",
+      "videoFallback": "/videos/placeholders/gradient-loop.mp4",
+      "image": "/images/attractions/ice-rink.jpg",
+      "imageFallback": "/images/placeholders/attraction-ice-rink.svg"
+    },
+    "vr-park": {
+      "video": "/videos/attractions/attraction-02.mp4",
+      "videoFallback": "/videos/placeholders/gradient-loop.mp4",
+      "image": "/images/attractions/vr-park.jpg",
+      "imageFallback": "/images/placeholders/attraction-vr-park.svg"
+    },
+    "souq": {
+      "video": "/videos/attractions/attraction-03.mp4",
+      "videoFallback": "/videos/placeholders/gradient-loop.mp4",
+      "image": "/images/attractions/souq.jpg",
+      "imageFallback": "/images/placeholders/attraction-souq.svg"
+    },
+    "events": {
+      "video": "/videos/attractions/attraction-01.mp4",
+      "videoFallback": "/videos/placeholders/gradient-loop.mp4",
+      "image": "/images/attractions/events.jpg",
+      "imageFallback": "/images/placeholders/attraction-events.svg"
+    }
+  },
+  "dining": {
+    "overview": {
+      "video": "/videos/dining/dining-01.mp4",
+      "videoFallback": "/videos/placeholders/gradient-loop.mp4",
+      "image": "/images/dining/dining-hero.jpg",
+      "imageFallback": "/images/placeholders/dining-hero.svg"
+    },
+    "boulevard": {
+      "video": "/videos/dining/dining-02.mp4",
+      "videoFallback": "/videos/placeholders/gradient-loop.mp4",
+      "image": "/images/dining/dining-boulevard.jpg",
+      "imageFallback": "/images/placeholders/dining-boulevard.svg"
+    },
+    "signature-01": {
+      "image": "/images/dining/restaurant-signature-01.jpg",
+      "imageFallback": "/images/placeholders/dining-signature-01.svg"
+    },
+    "signature-02": {
+      "image": "/images/dining/restaurant-signature-02.jpg",
+      "imageFallback": "/images/placeholders/dining-signature-02.svg"
+    },
+    "variety": {
+      "image": "/images/dining/dining-variety.jpg",
+      "imageFallback": "/images/placeholders/dining-variety.svg"
+    }
+  },
+  "retail": {
+    "overview": {
+      "video": "/videos/retail/fashion-avenue-walkthrough.mp4",
+      "videoFallback": "/videos/placeholders/gradient-loop.mp4",
+      "image": "/images/retail/retail-hero.jpg",
+      "imageFallback": "/images/placeholders/retail-hero.svg"
+    },
+    "fashion-avenue": {
+      "video": "/videos/retail/fashion-avenue-walkthrough.mp4",
+      "videoFallback": "/videos/placeholders/gradient-loop.mp4",
+      "image": "/images/retail/fashion-avenue.jpg",
+      "imageFallback": "/images/placeholders/retail-fashion-avenue.svg"
+    },
+    "luxury-wing": {
+      "video": "/videos/retail/mall-interior-atrium.mp4",
+      "videoFallback": "/videos/placeholders/gradient-loop.mp4",
+      "image": "/images/retail/luxury-wing.jpg",
+      "imageFallback": "/images/placeholders/retail-luxury-wing.svg"
+    },
+    "flagship-01": {
+      "image": "/images/retail/flagship-01.jpg",
+      "imageFallback": "/images/placeholders/retail-flagship-01.svg"
+    },
+    "flagship-02": {
+      "image": "/images/retail/flagship-02.jpg",
+      "imageFallback": "/images/placeholders/retail-flagship-02.svg"
+    },
+    "variety": {
+      "image": "/images/retail/retail-variety.jpg",
+      "imageFallback": "/images/placeholders/retail-variety.svg"
+    }
+  },
+  "stats": {
+    "visitors": "/images/stats/visitors-annual.jpg",
+    "visitorsFallback": "/images/placeholders/stats-visitors.svg",
+    "scale": "/images/stats/square-footage.jpg",
+    "scaleFallback": "/images/placeholders/stats-scale.svg",
+    "retail": "/images/stats/retail-power.jpg",
+    "retailFallback": "/images/placeholders/stats-retail.svg",
+    "tourism": "/images/stats/tourism.jpg",
+    "tourismFallback": "/images/placeholders/stats-tourism.svg"
+  },
+  "logos": {
+    "primaryWhite": "/images/logos/dubai-mall-logo-white.svg",
+    "primaryDark": "/images/logos/dubai-mall-logo-dark.svg",
+    "mark": "/images/logos/dubai-mall-mark.svg",
+    "emaar": "/images/logos/emaar-partner.svg",
+    "emaarFallback": "/images/placeholders/logo-partner.svg"
+  },
+  "map": {
+    "overview": "/images/map/floor-map-overview.png",
+    "overviewFallback": "/images/map/floor-map-overview.svg",
+    "levelG": "/images/map/floor-map-level-g.png",
+    "levelGFallback": "/images/map/floor-map-level-g.svg",
+    "level1": "/images/map/floor-map-level-1.png",
+    "level1Fallback": "/images/map/floor-map-level-1.svg",
+    "pinAquarium": "/images/map/map-pin-aquarium.svg",
+    "pinFashion": "/images/map/map-pin-fashion.svg",
+    "pinIceRink": "/images/map/map-pin-ice-rink.svg",
+    "pinVrPark": "/images/map/map-pin-vr-park.svg",
+    "pinDining": "/images/map/map-pin-dining.svg",
+    "pinSouk": "/images/map/map-pin-souk.svg",
+    "pinFountain": "/images/map/map-pin-fountain.svg"
+  },
+  "why": {
+    "hero": {
+      "video": "/videos/why/location.mp4",
+      "videoFallback": "/videos/placeholders/gradient-loop.mp4",
+      "image": "/images/why/hero-downtown.jpg",
+      "imageFallback": "/images/placeholders/why-hero.svg"
+    },
+    "location": {
+      "video": "/videos/why/location.mp4",
+      "videoFallback": "/videos/placeholders/gradient-loop.mp4",
+      "image": "/images/why/location-downtown.jpg",
+      "imageFallback": "/images/placeholders/why-location.svg"
+    },
+    "tourism": {
+      "video": "/videos/why/connectivity-tourism.mp4",
+      "videoFallback": "/videos/placeholders/gradient-loop.mp4",
+      "image": "/images/why/tourism-gateway.jpg",
+      "imageFallback": "/images/placeholders/why-tourism.svg"
+    },
+    "demographics": {
+      "image": "/images/why/demographics-global.jpg",
+      "imageFallback": "/images/placeholders/why-demographics.svg"
+    },
+    "access": {
+      "image": "/images/why/access-metro.jpg",
+      "imageFallback": "/images/placeholders/why-access.svg"
+    }
+  },
+  "luxury": {
+    "hero": {
+      "video": "/videos/luxury/luxury-01.mp4",
+      "videoFallback": "/videos/placeholders/gradient-loop.mp4",
+      "image": "/images/luxury/luxury-hero.jpg",
+      "imageFallback": "/images/placeholders/luxury-hero.svg"
+    },
+    "maisons": {
+      "video": "/videos/luxury/luxury-02.mp4",
+      "videoFallback": "/videos/placeholders/gradient-loop.mp4",
+      "image": "/images/luxury/maisons.jpg",
+      "imageFallback": "/images/placeholders/luxury-maisons.svg"
+    },
+    "jewellery": {
+      "image": "/images/luxury/jewellery.jpg",
+      "imageFallback": "/images/placeholders/luxury-jewellery.svg"
+    },
+    "concierge": {
+      "image": "/images/luxury/concierge.jpg",
+      "imageFallback": "/images/placeholders/luxury-concierge.svg"
+    },
+    "private": {
+      "image": "/images/luxury/private-shopping.jpg",
+      "imageFallback": "/images/placeholders/luxury-private.svg"
+    }
+  },
+  "eventsPlatform": {
+    "hero": {
+      "video": "/videos/events/concert.mp4",
+      "videoFallback": "/videos/placeholders/gradient-loop.mp4",
+      "image": "/images/events/platform-hero.jpg",
+      "imageFallback": "/images/placeholders/events-platform-hero.svg"
+    },
+    "activations": {
+      "image": "/images/events/brand-activations.jpg",
+      "imageFallback": "/images/placeholders/events-activations.svg"
+    },
+    "concerts": {
+      "video": "/videos/events/concert.mp4",
+      "videoFallback": "/videos/placeholders/gradient-loop.mp4",
+      "image": "/images/events/concerts.jpg",
+      "imageFallback": "/images/placeholders/events-concerts.svg"
+    },
+    "fashion": {
+      "video": "/videos/events/fashion-show-runway.mp4",
+      "videoFallback": "/videos/placeholders/gradient-loop.mp4",
+      "image": "/images/events/fashion-shows.jpg",
+      "imageFallback": "/images/placeholders/events-fashion.svg"
+    }
+  },
+  "venues": {
+    "fashion-dome": {
+      "image": "/images/venues/fashion-dome.jpg",
+      "imageFallback": "/images/placeholders/venue-fashion-dome.svg",
+      "video": "/videos/venues/fashion-dome.mp4",
+      "videoFallback": "/videos/placeholders/gradient-loop.mp4"
+    },
+    "waterfront": {
+      "image": "/images/venues/waterfront-promenade.jpg",
+      "imageFallback": "/images/placeholders/venue-waterfront.svg",
+      "video": "/videos/venues/waterfront-promenade.mp4",
+      "videoFallback": "/videos/placeholders/gradient-loop.mp4"
+    },
+    "ice-rink": {
+      "image": "/images/venues/ice-rink.jpg",
+      "imageFallback": "/images/placeholders/venue-ice-rink.svg",
+      "video": "/videos/venues/ice-rink.mp4",
+      "videoFallback": "/videos/placeholders/gradient-loop.mp4"
+    },
+    "expo": {
+      "image": "/images/venues/expo.jpg",
+      "imageFallback": "/images/placeholders/venue-expo.svg",
+      "video": "/videos/venues/expo-atrium.mp4",
+      "videoFallback": "/videos/placeholders/gradient-loop.mp4"
+    }
+  },
+  "ui": {
+    "noise": "/images/ui/noise-texture.png",
+    "noiseFallback": "/images/placeholders/ui-noise.svg",
+    "vignette": "/images/ui/vignette.png",
+    "vignetteFallback": "/images/placeholders/ui-vignette.svg",
+    "iconPlay": "/images/ui/icon-play.svg",
+    "iconPause": "/images/ui/icon-pause.svg",
+    "iconSoundOn": "/images/ui/icon-sound-on.svg",
+    "iconSoundOff": "/images/ui/icon-sound-off.svg",
+    "iconFullscreen": "/images/ui/icon-fullscreen.svg",
+    "iconClose": "/images/ui/icon-close.svg",
+    "favicon": "/images/ui/favicon.svg"
+  },
+  "team": {
+    "contact": "/images/team/leasing-contact.jpg",
+    "contactFallback": "/images/placeholders/team-contact.svg",
+    "qr": "/images/team/qr-contact.png",
+    "qrFallback": "/images/placeholders/team-qr.svg"
+  },
+  "experiences": {
+    "eventsHero": "/images/experiences/events-hero.jpg",
+    "eventsHeroFallback": "/images/placeholders/experiences-events.svg",
+    "tourist": "/images/experiences/tourist-activation.jpg",
+    "touristFallback": "/images/placeholders/experiences-tourist.svg",
+    "seasonal": "/images/experiences/seasonal.jpg",
+    "seasonalFallback": "/images/placeholders/experiences-seasonal.svg"
+  },
+  "audio": {
+    "ambient": "/audio/ambient-low.mp3",
+    "ambientFallback": null,
+    "uiClick": "/audio/ui-click.mp3",
+    "uiClickFallback": null
+  },
+  "hubZones": {
+    "aquarium": {
+      "preview": "attractions.dubai-aquarium.image",
+      "previewFallback": "attractions.dubai-aquarium.imageFallback",
+      "ambient": "ambient.attractions",
+      "ambientFallback": "ambient.attractionsFallback"
+    },
+    "fashion-avenue": {
+      "preview": "retail.fashion-avenue.image",
+      "previewFallback": "retail.fashion-avenue.imageFallback",
+      "ambient": "ambient.retail",
+      "ambientFallback": "ambient.retailFallback"
+    },
+    "ice-rink": {
+      "preview": "attractions.ice-rink.image",
+      "previewFallback": "attractions.ice-rink.imageFallback",
+      "ambient": "ambient.attractions",
+      "ambientFallback": "ambient.attractionsFallback"
+    },
+    "vr-park": {
+      "preview": "attractions.vr-park.image",
+      "previewFallback": "attractions.vr-park.imageFallback",
+      "ambient": "ambient.attractions",
+      "ambientFallback": "ambient.attractionsFallback"
+    },
+    "dining": {
+      "preview": "dining.boulevard.image",
+      "previewFallback": "dining.boulevard.imageFallback",
+      "ambient": "ambient.dining",
+      "ambientFallback": "ambient.diningFallback"
+    },
+    "souk": {
+      "preview": "attractions.souq.image",
+      "previewFallback": "attractions.souq.imageFallback",
+      "ambient": "ambient.retail",
+      "ambientFallback": "ambient.retailFallback"
+    },
+    "fountain": {
+      "preview": "attractions.dubai-fountain.image",
+      "previewFallback": "attractions.dubai-fountain.imageFallback",
+      "ambient": "ambient.hub",
+      "ambientFallback": "ambient.hubFallback"
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "title": "The Dubai Mall — Interactive Hub",
+  "description": "Navigate signature zones. Each pin previews the destination and routes to its chapter.",
+  "floorDefault": "overview",
+  "floors": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "assets": {
+        "map": "map.overview",
+        "mapFallback": "map.overviewFallback"
+      }
+    },
+    {
+      "id": "level-g",
+      "label": "Ground",
+      "assets": {
+        "map": "map.levelG",
+        "mapFallback": "map.levelGFallback"
+      }
+    },
+    {
+      "id": "level-1",
+      "label": "Level 1",
+      "assets": {
+        "map": "map.level1",
+        "mapFallback": "map.level1Fallback"
+      }
+    }
+  ],
+  "zones": [
+    {
+      "id": "aquarium",
+      "label": "Dubai Aquarium",
+      "chapterRoute": "/attractions",
+      "position": { "x": 42, "y": 38 },
+      "floor": "overview",
+      "assets": {
+        "preview": "hubZones.aquarium.preview",
+        "previewFallback": "hubZones.aquarium.previewFallback",
+        "ambient": "hubZones.aquarium.ambient",
+        "ambientFallback": "hubZones.aquarium.ambientFallback",
+        "pin": "map.pinAquarium"
+      },
+      "cta": { "text": "Enter attractions", "route": "/attractions" }
+    },
+    {
+      "id": "fashion-avenue",
+      "label": "Fashion Avenue",
+      "chapterRoute": "/retail",
+      "position": { "x": 68, "y": 32 },
+      "floor": "overview",
+      "assets": {
+        "preview": "hubZones.fashion-avenue.preview",
+        "previewFallback": "hubZones.fashion-avenue.previewFallback",
+        "ambient": "hubZones.fashion-avenue.ambient",
+        "ambientFallback": "hubZones.fashion-avenue.ambientFallback",
+        "pin": "map.pinFashion"
+      },
+      "cta": { "text": "Explore Fashion Avenue", "route": "/retail" }
+    },
+    {
+      "id": "ice-rink",
+      "label": "Ice Rink",
+      "chapterRoute": "/attractions",
+      "position": { "x": 55, "y": 52 },
+      "floor": "overview",
+      "assets": {
+        "preview": "hubZones.ice-rink.preview",
+        "previewFallback": "hubZones.ice-rink.previewFallback",
+        "ambient": "hubZones.ice-rink.ambient",
+        "ambientFallback": "hubZones.ice-rink.ambientFallback",
+        "pin": "map.pinIceRink"
+      },
+      "cta": { "text": "View attractions", "route": "/attractions" }
+    },
+    {
+      "id": "vr-park",
+      "label": "VR Park",
+      "chapterRoute": "/attractions",
+      "position": { "x": 30, "y": 58 },
+      "floor": "overview",
+      "assets": {
+        "preview": "hubZones.vr-park.preview",
+        "previewFallback": "hubZones.vr-park.previewFallback",
+        "ambient": "hubZones.vr-park.ambient",
+        "ambientFallback": "hubZones.vr-park.ambientFallback",
+        "pin": "map.pinVrPark"
+      },
+      "cta": { "text": "Discover VR Park", "route": "/attractions" }
+    },
+    {
+      "id": "dining",
+      "label": "Dining Boulevard",
+      "chapterRoute": "/dining",
+      "position": { "x": 72, "y": 55 },
+      "floor": "overview",
+      "assets": {
+        "preview": "hubZones.dining.preview",
+        "previewFallback": "hubZones.dining.previewFallback",
+        "ambient": "hubZones.dining.ambient",
+        "ambientFallback": "hubZones.dining.ambientFallback",
+        "pin": "map.pinDining"
+      },
+      "cta": { "text": "Explore dining", "route": "/dining" }
+    },
+    {
+      "id": "souk",
+      "label": "Souk & Luxury",
+      "chapterRoute": "/retail",
+      "position": { "x": 48, "y": 68 },
+      "floor": "overview",
+      "assets": {
+        "preview": "hubZones.souk.preview",
+        "previewFallback": "hubZones.souk.previewFallback",
+        "ambient": "hubZones.souk.ambient",
+        "ambientFallback": "hubZones.souk.ambientFallback",
+        "pin": "map.pinSouk"
+      },
+      "cta": { "text": "View luxury zones", "route": "/retail" }
+    },
+    {
+      "id": "fountain",
+      "label": "Dubai Fountain",
+      "chapterRoute": "/attractions",
+      "position": { "x": 50, "y": 22 },
+      "floor": "overview",
+      "assets": {
+        "preview": "hubZones.fountain.preview",
+        "previewFallback": "hubZones.fountain.previewFallback",
+        "ambient": "hubZones.fountain.ambient",
+        "ambientFallback": "hubZones.fountain.ambientFallback",
+        "pin": "map.pinFountain"
+      },
+      "cta": { "text": "See fountain experience", "route": "/attractions" }
+    },
+    {
+      "id": "events-platform",
+      "label": "Events & Platform",
+      "chapterRoute": "/events",
+      "position": { "x": 62, "y": 42 },
+      "floor": "overview",
+      "assets": {
+        "preview": "eventsPlatform.hero.image",
+        "previewFallback": "eventsPlatform.hero.imageFallback",
+        "ambient": "ambient.events",
+        "ambientFallback": "ambient.eventsFallback",
+        "pin": "map.pinFountain"
+      },
+      "cta": { "text": "Explore events", "route": "/events" }
+    }
+  ]
+}

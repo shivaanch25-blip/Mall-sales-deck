@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AssetManifest",
+  "type": "object",
+  "required": ["version", "venue", "fallbacks", "hero", "ambient", "attractions", "dining", "retail", "map", "hubZones"],
+  "properties": {
+    "version": { "type": "string" },
+    "venue": { "type": "string" },
+    "baseUrl": { "type": "string" },
+    "fallbacks": {
+      "type": "object",
+      "required": ["image", "video"],
+      "properties": {
+        "image": { "type": "string" },
+        "video": { "type": "string" },
+        "videoPoster": { "type": "string" },
+        "logo": { "type": "string" },
+        "audio": { "type": ["string", "null"] }
+      }
+    },
+    "hero": { "type": "object", "additionalProperties": { "type": "string" } },
+    "ambient": { "type": "object", "additionalProperties": { "type": "string" } },
+    "attractions": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["video", "videoFallback", "image", "imageFallback"],
+        "properties": {
+          "video": { "type": "string" },
+          "videoFallback": { "type": "string" },
+          "image": { "type": "string" },
+          "imageFallback": { "type": "string" }
+        }
+      }
+    },
+    "hubZones": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["preview", "previewFallback", "ambient", "ambientFallback"],
+        "properties": {
+          "preview": { "type": "string", "description": "AssetRef to another manifest key" },
+          "previewFallback": { "type": "string" },
+          "ambient": { "type": "string" },
+          "ambientFallback": { "type": "string" }
+        }
+      }
+    }
+  }
+}

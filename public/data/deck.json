@@ -1,0 +1,214 @@
+{
+  "id": "dubai-mall-sales-deck",
+  "venue": "The Dubai Mall",
+  "tagline": "The world's most visited lifestyle destination",
+  "version": "1.1.0",
+  "defaultRoute": "/intro",
+  "introRoute": "/intro",
+  "chapters": [
+    {
+      "id": "hub",
+      "title": "Hub",
+      "subtitle": "Explore the destination",
+      "route": "/hub",
+      "order": 0,
+      "showInNav": false,
+      "assets": {
+        "ambientVideo": "ambient.hub",
+        "ambientVideoFallback": "ambient.hubFallback",
+        "backgroundImage": "hero.atrium",
+        "backgroundImageFallback": "hero.atriumFallback",
+        "mapImage": "map.overview",
+        "mapImageFallback": "map.overviewFallback"
+      },
+      "cta": { "text": "Cinematic intro", "route": "/intro" }
+    },
+    {
+      "id": "intro",
+      "title": "Intro",
+      "subtitle": "The Dubai Mall",
+      "route": "/intro",
+      "order": 1,
+      "showInNav": false,
+      "assets": {
+        "video": "hero.video",
+        "videoFallback": "hero.videoFallback",
+        "poster": "hero.poster",
+        "posterFallback": "hero.posterFallback",
+        "loop": "hero.loop",
+        "loopFallback": "hero.loopFallback",
+        "ambientVideo": "ambient.hub",
+        "ambientVideoFallback": "ambient.hubFallback"
+      },
+      "cta": { "text": "Enter the hub", "route": "/hub" }
+    },
+    {
+      "id": "why",
+      "title": "Why Dubai",
+      "subtitle": "Location · Tourism · Audience",
+      "route": "/why",
+      "order": 2,
+      "showInNav": true,
+      "assets": {
+        "ambientVideo": "ambient.why",
+        "ambientVideoFallback": "ambient.whyFallback",
+        "heroImage": "why.hero.image",
+        "heroImageFallback": "why.hero.imageFallback"
+      },
+      "dataSource": "/data/why.json",
+      "cta": { "text": "Explore luxury", "route": "/luxury" }
+    },
+    {
+      "id": "scale",
+      "title": "Scale",
+      "subtitle": "Numbers that define a super-destination",
+      "route": "/scale",
+      "order": 3,
+      "showInNav": true,
+      "assets": {
+        "ambientVideo": "ambient.leasing",
+        "ambientVideoFallback": "ambient.leasingFallback",
+        "backgroundImage": "stats.scale",
+        "backgroundImageFallback": "stats.scaleFallback"
+      },
+      "dataSource": "/data/stats.json",
+      "cta": { "text": "Partner with us", "route": "/partner" }
+    },
+    {
+      "id": "attractions",
+      "title": "Attractions",
+      "subtitle": "World-class experiences",
+      "route": "/attractions",
+      "order": 4,
+      "showInNav": true,
+      "assets": {
+        "ambientVideo": "ambient.attractions",
+        "ambientVideoFallback": "ambient.attractionsFallback",
+        "heroImage": "attractions.dubai-aquarium.image",
+        "heroImageFallback": "attractions.dubai-aquarium.imageFallback"
+      },
+      "dataSource": "/data/attractions.json",
+      "cta": { "text": "Book an event", "route": "/events/module" }
+    },
+    {
+      "id": "luxury",
+      "title": "Luxury",
+      "subtitle": "Fashion Avenue",
+      "route": "/luxury",
+      "order": 5,
+      "showInNav": true,
+      "assets": {
+        "ambientVideo": "ambient.luxury",
+        "ambientVideoFallback": "ambient.luxuryFallback",
+        "heroImage": "luxury.hero.image",
+        "heroImageFallback": "luxury.hero.imageFallback"
+      },
+      "dataSource": "/data/luxury.json",
+      "cta": { "text": "Luxury leasing inquiry", "route": "/partner" }
+    },
+    {
+      "id": "retail",
+      "title": "Retail",
+      "subtitle": "1,200+ stores",
+      "route": "/retail",
+      "order": 6,
+      "showInNav": true,
+      "assets": {
+        "ambientVideo": "ambient.retail",
+        "ambientVideoFallback": "ambient.retailFallback",
+        "heroVideo": "retail.overview.video",
+        "heroVideoFallback": "retail.overview.videoFallback",
+        "heroImage": "retail.overview.image",
+        "heroImageFallback": "retail.overview.imageFallback"
+      },
+      "dataSource": "/data/retail.json",
+      "cta": { "text": "Leasing paths", "route": "/partner" }
+    },
+    {
+      "id": "dining",
+      "title": "Dining",
+      "subtitle": "200+ outlets",
+      "route": "/dining",
+      "order": 7,
+      "showInNav": true,
+      "assets": {
+        "ambientVideo": "ambient.dining",
+        "ambientVideoFallback": "ambient.diningFallback",
+        "heroVideo": "dining.overview.video",
+        "heroVideoFallback": "dining.overview.videoFallback",
+        "heroImage": "dining.overview.image",
+        "heroImageFallback": "dining.overview.imageFallback"
+      },
+      "dataSource": "/data/dining.json",
+      "cta": { "text": "F&B leasing", "route": "/partner" }
+    },
+    {
+      "id": "events",
+      "title": "Events",
+      "subtitle": "Global platform",
+      "route": "/events",
+      "order": 8,
+      "showInNav": true,
+      "assets": {
+        "ambientVideo": "ambient.events",
+        "ambientVideoFallback": "ambient.eventsFallback",
+        "heroImage": "eventsPlatform.hero.image",
+        "heroImageFallback": "eventsPlatform.hero.imageFallback"
+      },
+      "dataSource": "/data/events-platform.json",
+      "cta": { "text": "Events module", "route": "/events/module" }
+    },
+    {
+      "id": "events-module",
+      "title": "Events Module",
+      "subtitle": "Venues & booking",
+      "route": "/events/module",
+      "order": 9,
+      "showInNav": false,
+      "assets": {
+        "ambientVideo": "ambient.events",
+        "ambientVideoFallback": "ambient.eventsFallback",
+        "heroImage": "experiences.eventsHero",
+        "heroImageFallback": "experiences.eventsHeroFallback"
+      },
+      "dataSource": "/data/events.json",
+      "cta": { "text": "Book an event", "route": "/partner" }
+    },
+    {
+      "id": "partner",
+      "title": "Partner",
+      "subtitle": "Lease · Sponsor · Book",
+      "route": "/partner",
+      "order": 10,
+      "showInNav": true,
+      "assets": {
+        "ambientVideo": "ambient.leasing",
+        "ambientVideoFallback": "ambient.leasingFallback",
+        "heroImage": "hero.exterior",
+        "heroImageFallback": "hero.exteriorFallback",
+        "contactImage": "team.contact",
+        "contactImageFallback": "team.contactFallback"
+      },
+      "dataSource": "/data/inquiry.json",
+      "cta": { "text": "Start a conversation", "route": "/partner" }
+    }
+  ],
+  "navigation": {
+    "logo": "logos.mark",
+    "logoFallback": "fallbacks.logo",
+    "transitionIn": "transitions.wipeGold",
+    "transitionInFallback": "transitions.wipeGoldFallback",
+    "transitionOut": "transitions.wipeDark",
+    "transitionOutFallback": "transitions.wipeDarkFallback"
+  },
+  "preload": {
+    "critical": ["hero.poster", "hero.video", "ambient.hub", "map.overview"],
+    "onHubMount": [
+      "ambient.attractions",
+      "ambient.dining",
+      "ambient.retail",
+      "ambient.why",
+      "ambient.events"
+    ]
+  }
+}

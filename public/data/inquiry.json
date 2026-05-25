@@ -1,0 +1,37 @@
+{
+  "contactEmail": "commercial.partnerships@emaar.com",
+  "calendarUrl": "https://www.thedubaimall.com/en/contact",
+  "intents": {
+    "leasing": {
+      "label": "Retail leasing",
+      "subject": "The Dubai Mall — Retail Leasing Inquiry",
+      "bodyIntro": "I am interested in retail leasing opportunities at The Dubai Mall."
+    },
+    "leasing-luxury": {
+      "label": "Luxury / Fashion Avenue",
+      "subject": "The Dubai Mall — Fashion Avenue Leasing Inquiry",
+      "bodyIntro": "I am interested in luxury retail space at Fashion Avenue, The Dubai Mall."
+    },
+    "sponsorship": {
+      "label": "Sponsorship & brand partnerships",
+      "subject": "The Dubai Mall — Sponsorship Inquiry",
+      "bodyIntro": "I would like to discuss sponsorship and brand activation opportunities."
+    },
+    "events": {
+      "label": "Events & venue booking",
+      "subject": "The Dubai Mall — Event Booking Inquiry",
+      "bodyIntro": "I am interested in hosting an event or activation at The Dubai Mall."
+    },
+    "fnb": {
+      "label": "Food & beverage leasing",
+      "subject": "The Dubai Mall — F&B Leasing Inquiry",
+      "bodyIntro": "I am interested in F&B leasing on Dining Boulevard."
+    },
+    "popup": {
+      "label": "Pop-up & short-term retail",
+      "subject": "The Dubai Mall — Pop-Up Inquiry",
+      "bodyIntro": "I am interested in a pop-up or short-term retail activation."
+    }
+  },
+  "defaultIntent": "leasing"
+}
