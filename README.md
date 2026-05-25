@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # The Dubai Mall — Interactive Sales Deck
 
 A **Digideck-style**, nonlinear, video-first sales tool for The Dubai Mall. Built for high-stakes pitches to retail tenants, sponsors, and event partners—screen-share on live calls or send as a standalone link.
@@ -166,3 +167,6 @@ See **`SUBMISSION.md`** for a 1-page design rationale you can attach to your ema
 ## License
 
 Portfolio / interview submission. Dubai Mall branding and assets belong to their respective owners.
+=======
+# Mall-sales-deck
+>>>>>>> 45f2772765abc5ae97e85b0c73e98eb27f12de60
